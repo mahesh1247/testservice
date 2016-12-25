@@ -1,0 +1,8 @@
+---
+applications:
+- name: testservices
+  memory: 512m
+  random-route: true
+  path: target/testservice-0.0.1-SNAPSHOT.jar
+env:
+  JBP_CONFIG_DEBUG: '{enabled: true}'
